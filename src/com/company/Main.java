@@ -3,7 +3,7 @@
  Instructor: Phil O'Connell (pxo4)
  Student: JiaJia Liu
  Email: JPL5840
- Assignment: LB18
+ Assignment: LB19
 */
 
 package com.company;
@@ -58,7 +58,7 @@ public class Main
 
         //System.out.println(balance.equals(Money.parse("USD 0.61"))); // true
         Money compareTo = Money.parse("USD 0.61");
-        System.out.println(balance.equals(compareTo)); // true
+        //System.out.println(balance.equals(compareTo)); // true
         System.out.println(balance.isEqual(compareTo));
 
 
